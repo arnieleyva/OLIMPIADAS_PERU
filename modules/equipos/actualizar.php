@@ -18,7 +18,7 @@ $stmt = $conexion->prepare('
         telefono_capitan = ?
     WHERE id_equipo = ?
 ');
-
+//
 $stmt->execute([
     trim((string) ($_POST['nombre'] ?? '')),
     trim((string) ($_POST['director_tecnico'] ?? '')) ?: null,
