@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/pages/index_view.php';
+require __DIR__ . '/pages/index_view.php';//
 return;
 ?>
 
