@@ -6,7 +6,7 @@ return;
 <?php
 
 session_start();
-
+//
 include 'config/database.php';
 
 $email = $_POST['email'];
