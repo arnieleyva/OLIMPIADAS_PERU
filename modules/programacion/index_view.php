@@ -5,7 +5,7 @@ include '../../config/database.php';
 $pageTitle = 'Programacion';
 $pageHeading = 'Programacion y notificaciones';
 $pageDescription = 'Revisa partidos programados y genera mensajes rapidos de WhatsApp para capitanes con numero registrado.';
-$activeMenu = 'programacion';
+$activeMenu = 'programacion';//
 
 $partidos = $conexion->query('
     SELECT
